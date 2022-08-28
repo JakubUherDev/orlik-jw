@@ -1,10 +1,9 @@
 import {useState} from 'react'
-// import './App.css'
 import Header from './components/Header/Header';
 import PlayerList, {Player, PlayerType} from "./components/PlayerList/PlayerList";
 import NewPlayer from "./components/NewPlayer/NewPlayer";
 import swal from 'sweetalert';
-import heroUrl from '../../assets/hero1.png';
+import heroUrl from 'assets/hero1.png';
 
 const player: Player = new Player("Marcin Kotowski", "+48668228668", PlayerType.kapitan)
 
