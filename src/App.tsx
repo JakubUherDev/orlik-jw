@@ -51,7 +51,7 @@ function App() {
         <div className="App">
             <div className="container mx-auto w-full md:w-1/2">
                 <Header/>
-                <img className={'w-full h-full'} src="public/gradia-assets/hero.png" alt='Hero Image'/>
+                <img className={'w-full h-full'} src="public/hero1.png" alt='Hero Image'/>
                 <PlayerList players={players} removePlayers={removePlayer}/>
 
                 <div className="mt-4">
