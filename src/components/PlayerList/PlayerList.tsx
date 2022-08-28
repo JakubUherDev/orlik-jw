@@ -42,6 +42,7 @@ function PlayerList({players, removePlayers}: PlayerListProps) {
         swal({
             title: 'Wpisz Haslo',
             text: 'Tylko administrator moze usunac gracza z listy, wpisz haslo aby potwierdzic ze to ty.',
+            // @ts-ignore
             content: "input",
             button: {
                 text: "Potwierdz!",

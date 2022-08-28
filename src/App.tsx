@@ -4,6 +4,7 @@ import Header from './components/Header/Header';
 import PlayerList, {Player, PlayerType} from "./components/PlayerList/PlayerList";
 import NewPlayer from "./components/NewPlayer/NewPlayer";
 import swal from 'sweetalert';
+import heroUrl from '../../assets/hero1.png';
 
 const player: Player = new Player("Marcin Kotowski", "+48668228668", PlayerType.kapitan)
 
@@ -51,7 +52,7 @@ function App() {
         <div className="App">
             <div className="container mx-auto w-full md:w-1/2">
                 <Header/>
-                <img className={'w-full h-full'} src="public/hero1.png" alt='Hero Image'/>
+                <img className={'w-full h-full'} src={heroUrl} alt='Hero Image'/>
                 <PlayerList players={players} removePlayers={removePlayer}/>
 
                 <div className="mt-4">
